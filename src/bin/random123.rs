@@ -8,7 +8,7 @@ use rand_core::{SeedableRng, RngCore};
 fn main() {
     let mut rng = ThreeFry2x64Rng::seed_from_u64(0);
     loop {
-        println!("{}", rng.next_u32());
+        println!("{}", rng.next_u64());
     }
 }
 
