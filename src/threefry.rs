@@ -1,3 +1,4 @@
+// <threefry.rs>
 use rand_core::le;
 
 pub type Array2x64 = [u64; 2];
@@ -141,3 +142,4 @@ mod tests {
 //    }
 }
 
+// <threefry.rs>

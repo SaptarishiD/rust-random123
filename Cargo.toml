@@ -4,7 +4,8 @@ version = "0.1.0"
 authors = ["Justin Gullingsrud <justinrocks@gmail.com>"]
 
 [dependencies]
-rand_core = "0.3.0"
+rand = "0.8.5"
+rand_core = "0.6.4"
 
 [dev-dependencies]
 
