@@ -3,7 +3,7 @@ use rand_core::{RngCore, SeedableRng, Error as RandCoreError};
 use rand_core::block::{BlockRngCore, BlockRng, BlockRng64};
 
 use super::philox::{Philox2x32,  Philox2x64,  Philox4x32,  Philox4x64};
-use super::threefry::{ThreeFry2x64};
+use super::threefry::ThreeFry2x64;
 
 //
 extern crate rand;
